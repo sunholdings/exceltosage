@@ -161,7 +161,7 @@ if user_input and pass_input:
                     # Get the current year and month
                     current_year = pd.Timestamp.now().year
                     current_month = pd.Timestamp.now().strftime('%b').upper()  # Get the month abbreviation in uppercase
-                    prefix = f"{current_year}{current_month}RENT-"
+                    prefix = f"{current_year}{current_month} RENT- "
         #--------------------------------------------------------------------------------
                 # Verify and process the "Store #", "STORE #", "Store#", or "Upload Store" column for "Document no."
                 store_column_found = False
